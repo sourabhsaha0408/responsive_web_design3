@@ -1,0 +1,667 @@
+@media screen and (min-width: 350px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  .forComp {
+    display: contents;
+  }
+  .leftAndRightNavBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+  }
+  .leftBlackNavBar {
+    display: flex;
+    align-items: end;
+    padding: 10px;
+    height: 100px;
+    width: 60px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+  }
+  .onlyForTabletsAndBeyond {
+    display: none;
+  }
+  .groupOfRightNavIconsAndbuttonHolder {
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .groupOfRightNavIcons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .rightNavIcon {
+    margin-left: 6px;
+    font-size: 15px;
+    color: #e2e2e2;
+  }
+  .buttonHolder {
+    display: flex;
+    justify-content: end;
+  }
+  .button1 {
+    width: 100px;
+    padding: 3px 0px;
+    background-color: #c4c3bf;
+    box-shadow: 2px 2px;
+  }
+  .straightLine {
+    padding: 0px 10px;
+  }
+  .line {
+    height: 50px;
+    width: 100%;
+  }
+  .circleAndText {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    padding: 0px 10px;
+  }
+  .circle {
+    height: 10px;
+  }
+  .twoBooksBox {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+  }
+  .twoBooks {
+    height: 200px;
+  }
+  .practicalGuide {
+    font-size: 25px;
+    font-weight: bold;
+    color: #919191;
+    padding: 10px 10px 0px;
+  }
+  .author {
+    padding: 0px 10px;
+    color: #e1c9bb;
+  }
+  .someText2 {
+    padding: 10px;
+  }
+  .sometext3 {
+    padding: 0px 10px 10px;
+  }
+  .bookSet {
+    display: flex;
+    padding: 10px 10px;
+  }
+  .book {
+    height: 150px;
+  }
+  .bookDetails {
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+  }
+  .bookName {
+    font-size: larger;
+  }
+  .bookAuthor {
+    font-size: small;
+  }
+  .bookButton {
+    width: 50px;
+    background-color: #d87938;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 0px;
+  }
+  .bookAdditionalText {
+    font-size: small;
+  }
+  .firstAndSecondBlock {
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .firstLine {
+    line-height: 50px;
+    color: #c9c9c9;
+  }
+  .secondLine {
+    font-weight: bolder;
+    color: #cccccc;
+    line-height: 20px;
+  }
+  .thirdLine {
+    color: #e2e2e2;
+    line-height: 40px;
+  }
+  .fourthLine {
+    color: brown;
+  }
+  .fifthLine {
+    color: #c5dde6;
+    line-height: 60px;
+  }
+  .inputBox {
+    padding: 10px 0px;
+  }
+  .enterSomething {
+    width: 100%;
+    height: 20px;
+  }
+  .button2 {
+    background-color: #f67d2f;
+    color: white;
+    padding: 10px;
+  }
+  .thirdBlock {
+    padding: 0px 10px 10px;
+  }
+  .imageAndText {
+    display: flex;
+    padding: 10px 0px;
+  }
+  .imageLogo {
+    height: 80px;
+  }
+  .sentences {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .firstAndThirdSentence {
+    font-weight: bold;
+    color: #cecece;
+  }
+  .secondSentence {
+    color: #cccccc;
+    font-size: small;
+    margin-bottom: 10px;
+  }
+  .lastLine {
+    color: #b8d6e5;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .leftAndRightNavBar {
+    padding: 0px 15px;
+  }
+  .leftBlackNavBar {
+    font-size: large;
+  }
+  .groupOfRightNavIconsAndbuttonHolder {
+    height: 65px;
+    margin-top: 40px;
+  }
+  .rightNavIcon {
+    font-size: 20px;
+  }
+  .button1 {
+    width: 120px;
+    padding: 5px 0px;
+    font-size: 15px;
+  }
+  .circleAndText {
+    align-items: center;
+    width: 230px;
+    padding: 0px 15px;
+  }
+  .circle {
+    height: 25px;
+  }
+  .someText {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .twoBooks {
+    height: 250px;
+  }
+  .practicalGuide {
+    font-size: 30px;
+    padding: 10px 15px 0px;
+  }
+  .author {
+    padding: 0px 15px;
+    font-size: 20px;
+  }
+  .someText2 {
+    padding: 15px;
+    font-size: 18px;
+  }
+  .sometext3 {
+    padding: 0px 15px 10px;
+    font-size: 18px;
+  }
+  .bookSet {
+    padding: 10px 15px;
+  }
+  .book {
+    height: 180px;
+  }
+  .bookDetails {
+    height: 110px;
+  }
+  .bookName {
+    font-size: x-large;
+  }
+  .bookAuthor {
+    font-size: large;
+  }
+  .bookButton {
+    width: 60px;
+    padding: 5px 0px;
+    font-size: 15px;
+  }
+  .bookAdditionalText {
+    font-size: medium;
+  }
+  .firstAndSecondBlock {
+    padding: 0px 15px;
+  }
+  .firstLine {
+    font-size: large;
+  }
+  .secondLine {
+    font-size: larger;
+  }
+  .thirdLine {
+    font-size: medium;
+  }
+  .fourthLine {
+    font-size: large;
+  }
+  .fifthLine {
+    font-size: large;
+  }
+  .enterSomething {
+    height: 30px;
+  }
+  .button2 {
+    font-size: 15px;
+  }
+  .thirdBlock {
+    padding: 0px 15px 10px;
+  }
+  .imageLogo {
+    height: 100px;
+  }
+  .sentences {
+    padding: 15px;
+  }
+  .firstAndThirdSentence {
+    font-size: larger;
+  }
+  .secondSentence {
+    font-size: large;
+  }
+  .lastLine {
+    font-size: large;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .leftAndRightNavBar {
+    padding: 0px 20px;
+  }
+  .leftBlackNavBar {
+    height: 120px;
+    width: 90px;
+    font-size: x-large;
+  }
+  .groupOfRightNavIconsAndbuttonHolder {
+    height: 65px;
+    margin-top: 40px;
+  }
+  .onlyForTabletsAndBeyond {
+    display: flex;
+    justify-content: end;
+    font-size: large;
+    font-weight: bold;
+    color: grey;
+  }
+  .rightNavIcon {
+    margin-left: 16px;
+    font-size: 25px;
+  }
+  .buttonHolder {
+    display: none;
+  }
+  .circleAndText {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    padding: 0px 0px 0px 20px;
+  }
+  .circle {
+    height: 25px;
+  }
+  .someText {
+    font-size: 23px;
+    padding-left: 0px;
+  }
+  .practicalGuideAndtwoBooksBox {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .practicalGuideParent {
+    width: 50%;
+  }
+  .twoBooksBox {
+    display: flex;
+    justify-content: end;
+    padding: 10px 0px;
+  }
+  .twoBooks {
+    height: 300px;
+  }
+  .practicalGuide {
+    padding: 10px 0px 0px;
+  }
+  .author {
+    padding: 0px 0px;
+  }
+  .someText2 {
+    padding: 10px 0px;
+  }
+  .sometext3 {
+    padding: 0px 0px 10px;
+  }
+  .bookSetCollection {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bookSet {
+    padding: 10px 20px;
+  }
+  .book {
+    height: 150px;
+  }
+  .bookDetails {
+    height: 150px;
+  }
+  .bookName {
+    font-size: x-large;
+  }
+  .bookAuthor {
+    font-size: medium;
+  }
+  .bookButton {
+    width: 60px;
+  }
+  .bookAdditionalText {
+    font-size: small;
+  }
+  .allThreeBlocks {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .firstAndSecondBlock {
+    padding: 0px 0px;
+    justify-content: left;
+    width: 30%;
+  }
+  .inputBox {
+    padding: 10px 0px;
+  }
+  .enterSomething {
+    height: 30px;
+    background-color: #fefefc;
+  }
+  .button2 {
+    padding: 10px 20px;
+  }
+  .thirdBlock {
+    padding: 0px 0px 0px;
+    width: 230px;
+  }
+  .imageAndText {
+    display: flex;
+    padding: 0px 0px;
+  }
+  .imageLogo {
+    height: 90px;
+  }
+  .sentences {
+    padding: 10px;
+  }
+  .firstAndThirdSentence {
+    font-size: medium;
+    font-weight: bolder;
+    color: #cecece;
+  }
+  .secondSentence {
+    color: #cccccc;
+    font-size: medium;
+  }
+  .gayab {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .leftBlackNavBar {
+    height: 160px;
+    width: 110px;
+    font-size: xx-large;
+  }
+  .groupOfRightNavIconsAndbuttonHolder {
+    height: 80px;
+    margin-top: 60px;
+  }
+  .onlyForTabletsAndBeyond {
+    font-size: x-large;
+  }
+  .rightNavIcon {
+    margin-left: 20px;
+    font-size: 30px;
+  }
+  .circleAndText {
+    width: 320px;
+  }
+  .circle {
+    height: 35px;
+  }
+  .someText {
+    font-size: 30px;
+    padding-left: 0px;
+  }
+  .practicalGuideParent {
+    width: 60%;
+  }
+  .twoBooks {
+    height: 350px;
+  }
+  .practicalGuide {
+    font-size: 50px;
+  }
+  .author {
+    font-size: 25px;
+    padding: 0px 0px 20px;
+  }
+  .someText2 {
+    font-size: 20px;
+    padding: 20px 0px;
+  }
+  .sometext3 {
+    font-size: 20px;
+    padding: 0px 0px 10px;
+  }
+  .book {
+    height: 250px;
+  }
+  .bookDetails {
+    height: 200px;
+  }
+  .bookAuthor {
+    font-size: large;
+  }
+  .bookButton {
+    width: 80px;
+  }
+  .bookAdditionalText {
+    font-size: medium;
+  }
+  .firstLine {
+    font-size: larger;
+  }
+  .secondLine {
+    font-size: x-large;
+    line-height: 30px;
+  }
+  .thirdLine {
+    font-size: larger;
+  }
+  .fourthLine {
+    font-size: x-large;
+  }
+  .fifthLine {
+    font-size: larger;
+  }
+  .inputBox {
+    padding: 20px 0px;
+  }
+  .enterSomething {
+    height: 40px;
+  }
+  .button2 {
+    width: 150px;
+    font-size: larger;
+  }
+  .thirdBlock {
+    padding: 0px 0px 0px;
+    width: 260px;
+  }
+  .imageLogo {
+    height: 130px;
+  }
+  .sentences {
+    padding: 10px;
+  }
+  .firstAndThirdSentence {
+    font-size: large;
+  }
+  .secondSentence {
+    font-size: large;
+  }
+}
+
+@media screen and (min-width: 1270px) {
+  .leftAndRightNavBar {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px;
+  }
+  .forComp {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+  }
+  .leftBlackNavBar {
+    height: 180px;
+    width: 130px;
+    font-size: 39px;
+  }
+  .groupOfRightNavIconsAndbuttonHolder {
+    height: 100px;
+    margin-top: 80px;
+  }
+  .onlyForTabletsAndBeyond {
+    font-size: xx-large;
+  }
+  .rightNavIcon {
+    margin-left: 20px;
+    font-size: 40px;
+  }
+  .forComp2 {
+    display: flex;
+    justify-content: center;
+  }
+  .circleAndText {
+    justify-content: left;
+    width: 1200px;
+  }
+  .someText {
+    margin-left: 20px;
+  }
+  .practicalGuideAndtwoBooksBox {
+    width: 1200px;
+    padding: 0px;
+  }
+  .twoBooks {
+    height: 450px;
+  }
+  .bookSetCollection{
+    width: 1200px;
+  }
+  .book {
+    height: 300px;
+  }
+  .bookDetails {
+    height: 180px;
+  }
+  .bookName{
+    font-size: x-large;
+  }
+  .bookAuthor {
+    font-size: larger;
+  }
+  .bookButton {
+    width: 100px;
+  }
+  .allThreeBlocks {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+  }
+  .firstLine {
+    font-size: larger;
+  }
+  .secondLine {
+    font-size: x-large;
+  }
+  .thirdLine {
+    font-size: larger;
+  }
+  .fourthLine {
+    font-size: x-large;
+  }
+  .fifthLine {
+    line-height: 80px;
+    font-size: larger;
+  }
+  .inputBox {
+    padding: 20px 0px;
+  }
+  .enterSomething {
+    height: 40px;
+  }
+  .button2 {
+    width: 150px;
+    font-size: larger;
+  }
+  .thirdBlock {
+    padding: 0px 0px 0px;
+    width: 280px;
+  }
+  .imageLogo {
+    height: 150px;
+  }
+  .sentences {
+    padding: 10px;
+  }
+  .firstAndThirdSentence {
+    font-size: large;
+  }
+  .secondSentence {
+    font-size: large;
+  }
+}
