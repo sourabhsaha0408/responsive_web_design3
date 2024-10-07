@@ -1,3 +1,191 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.forComp {
+  display: contents;
+}
+.leftAndRightNavBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.leftBlackNavBar {
+  display: flex;
+  align-items: end;
+  padding: 10px;
+  height: 100px;
+  width: 60px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.onlyForTabletsAndBeyond {
+  display: none;
+}
+.groupOfRightNavIconsAndbuttonHolder {
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.groupOfRightNavIcons {
+  display: flex;
+  justify-content: space-between;
+}
+.rightNavIcon {
+  margin-left: 6px;
+  font-size: 15px;
+  color: #e2e2e2;
+}
+.buttonHolder {
+  display: flex;
+  justify-content: end;
+}
+.button1 {
+  width: 100px;
+  padding: 3px 0px;
+  background-color: #c4c3bf;
+  box-shadow: 2px 2px;
+}
+.straightLine {
+  padding: 0px 10px;
+}
+.line {
+  height: 50px;
+  width: 100%;
+}
+.circleAndText {
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+  padding: 0px 10px;
+}
+.circle {
+  height: 10px;
+}
+.twoBooksBox {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.twoBooks {
+  height: 200px;
+}
+.practicalGuide {
+  font-size: 25px;
+  font-weight: bold;
+  color: #919191;
+  padding: 10px 10px 0px;
+}
+.author {
+  padding: 0px 10px;
+  color: #e1c9bb;
+}
+.someText2 {
+  padding: 10px;
+}
+.sometext3 {
+  padding: 0px 10px 10px;
+}
+.bookSet {
+  display: flex;
+  padding: 10px 10px;
+}
+.book {
+  height: 150px;
+}
+.bookDetails {
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.bookName {
+  font-size: larger;
+}
+.bookAuthor {
+  font-size: small;
+}
+.bookButton {
+  width: 50px;
+  background-color: #d87938;
+  color: white;
+  border-radius: 5px;
+  padding: 3px 0px;
+}
+.bookAdditionalText {
+  font-size: small;
+}
+.firstAndSecondBlock {
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.firstLine {
+  line-height: 50px;
+  color: #c9c9c9;
+}
+.secondLine {
+  font-weight: bolder;
+  color: #cccccc;
+  line-height: 20px;
+}
+.thirdLine {
+  color: #e2e2e2;
+  line-height: 40px;
+}
+.fourthLine {
+  color: brown;
+}
+.fifthLine {
+  color: #c5dde6;
+  line-height: 60px;
+}
+.inputBox {
+  padding: 10px 0px;
+}
+.enterSomething {
+  width: 100%;
+  height: 20px;
+}
+.button2 {
+  background-color: #f67d2f;
+  color: white;
+  padding: 10px;
+}
+.thirdBlock {
+  padding: 0px 10px 10px;
+}
+.imageAndText {
+  display: flex;
+  padding: 10px 0px;
+}
+.imageLogo {
+  height: 80px;
+}
+.sentences {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.firstAndThirdSentence {
+  font-weight: bold;
+  color: #cecece;
+}
+.secondSentence {
+  color: #cccccc;
+  font-size: small;
+  margin-bottom: 10px;
+}
+.lastLine {
+  color: #b8d6e5;
+}
+}
+
 @media screen and (min-width: 350px) {
   * {
     margin: 0px;
